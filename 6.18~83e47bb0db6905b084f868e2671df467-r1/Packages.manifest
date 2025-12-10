@@ -44,8 +44,8 @@ URL: http://openwrt.org/
 Architecture: aarch64_generic
 Installed-Size: 276480
 Filename: base-files_1~29397011cc_aarch64_generic.ipk
-Size: 52330
-SHA256sum: 2787af73088eda1bc62a82c3f66fc1a3cc8046244e9d09b5ef18fdf8d5d40bdd
+Size: 52329
+SHA256sum: 72080a6f2df205fb03f774058ebf8570670611f406c8d9b838cf92ea1b865ded
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -139,14 +139,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1764608857
+SourceDateEpoch: 1765369277
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 1495040
 Filename: dpdk-tools_24.07-r1_aarch64_generic.ipk
-Size: 342884
-SHA256sum: 594ba3ea8b1fb88c9f1bb38291dda057279caf7ca219f9322515e4109a6828f9
+Size: 342780
+SHA256sum: 87706b5dda37b0337a67cf605c6c9d10561f1e678690e5f6109c0113f412d86b
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20069,14 +20069,14 @@ SourceName: dpdk
 License: BSD-3-Clause
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1764608857
+SourceDateEpoch: 1765369277
 URL: https://www.dpdk.org
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 19281920
 Filename: libdpdk_24.07-r1_aarch64_generic.ipk
-Size: 8249143
-SHA256sum: 9423bb8fdcbadcb277fd634ca3833116d6f0c966b66d132569ba3775a5d318b0
+Size: 8236802
+SHA256sum: b6fd62d31ecb0d0f852f72521dc51c4bd232d85a6e036798f01d87ed0bfbdab8
 Description:  DPDK is a set of libraries and drivers for fast packet processing.
  It supports many processor architectures and both FreeBSD and Linux.
 
@@ -20203,13 +20203,13 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1764608857
+SourceDateEpoch: 1765369277
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 61440
 Filename: libnuma_2.0.19-r1_aarch64_generic.ipk
-Size: 24865
-SHA256sum: 5e0c783177cf60cd3053b056928b6e030711450f4f4885000c0e4eb0c1fd493f
+Size: 24859
+SHA256sum: ccba438affdd205db3283dad84aaa15ec09457abe3d9facb44054678ca6bc1eb
 Description:  libnuma shared library ("NUMA API") to set NUMA policy in applications.
  The libnuma binary interface is supposed to stay binary compatible.
  Incompatible changes will use new symbol version numbers.
@@ -20456,14 +20456,14 @@ SourceName: numactl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1764608857
+SourceDateEpoch: 1765369277
 URL: https://github.com/numactl/numactl
 Maintainer: Zbynek Kocur <zbynek.kocur@fel.cvut.cz>
 Architecture: aarch64_generic
 Installed-Size: 112640
 Filename: numactl_2.0.19-r1_aarch64_generic.ipk
-Size: 44232
-SHA256sum: f507ae00a110926245ae2e4408f84c69b83bc033b363111c9a5e84b24c784a1d
+Size: 44186
+SHA256sum: d9270f971aae28a0ca78bbe30f1b751597742a8369e377ba1fab39048fcaed10
 Description:  Simple NUMA policy support. It consists of a numactl program to
  run other programs with a specific NUMA policy.
 
